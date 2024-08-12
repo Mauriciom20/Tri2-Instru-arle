@@ -24,5 +24,6 @@ class Personas{
 let persona = new Personas("juan", "perez", 18);
 
 persona.agregarTelefonos(["123-456-7890", "987-654-3210"]);
+persona.obtenerTelefono(["987-654-3210", "123-456-7890"]);
 
 console.log(persona)
